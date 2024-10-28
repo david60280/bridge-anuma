@@ -6,7 +6,7 @@
 
 - Installation du Bridge ( ici le bridge Bugna )
 
-```git clone https://github.com/david60280/bridge-anumad.git```
+```git clone https://github.com/david60280/bridge-anuma.git```
 
 ```cd bridge-anumad```
 
