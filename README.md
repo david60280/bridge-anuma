@@ -2,7 +2,9 @@
 
 ```sudo apt install golang-go```
 
-- le node doit être lancé et synchro 
+- le node doit être lancé et synchro
+
+- ./anumad --utxoindex --allow-submit-block-when-not-synced
 
 - Installation du Bridge ( ici le bridge Bugna )
 
