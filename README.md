@@ -6,7 +6,7 @@
 
 - ./anumad --utxoindex --allow-submit-block-when-not-synced
 
-- Installation du Bridge ( ici le bridge Bugna )
+- Installation du Bridge 
 
 ```git clone https://github.com/david60280/bridge-anuma.git```
 
