@@ -6,7 +6,7 @@ stratum_port: :5555
 # kaspad_address: address/port of the rpc server for kaspad, typically 16110
 # For a list of public nodes, run `nslookup mainnet-dnsseed.daglabs-dev.com` 
 # uncomment for to use a public node
-# kaspad_address: 107.191.50.121:12413
+# kaspad_address: ip du node :12413
 kaspad_address: localhost:12412
 
 # min_share_diff: only accept shares of the specified difficulty (or higher) 
