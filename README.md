@@ -8,7 +8,7 @@
 
 ```git clone https://github.com/david60280/bridge-anuma.git```
 
-```cd bridge-anumad```
+```cd bridge-anuma```
 
 ```cd cmd/kaspabridge/;go build .;./kaspabridge```
 
