@@ -10,7 +10,7 @@ services:
     user: "0"
     command:
       - '-stats=false'
-      - '-anuma=host.docker.internal:12413'
+      - '-slyvex=host.docker.internal:28110'
     ports:
       - 5555:5555
       - 2114:2114
