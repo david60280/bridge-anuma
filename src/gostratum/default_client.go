@@ -140,20 +140,20 @@ func SendExtranonce(ctx *StratumContext) {
 	}
 }
 
-var walletRegex = regexp.MustCompile("anuma:[a-z0-9]+")
+var walletRegex = regexp.MustCompile("slyvex:[a-z0-9]+")
 
 func CleanWallet(in string) (string, error) {
 	_, err := util.DecodeAddress(in, util.Bech32PrefixKaspa)
 	if err == nil {
 		return in, nil // good to go
 	}
-	if !strings.HasPrefix(in, "anuma:") {
-		return CleanWallet("anuma:" + in)
+	if !strings.HasPrefix(in, "slyvex:") {
+		return CleanWallet("slyvex:" + in)
 	}
 
 	// has kaspa: prefix but other weirdness somewhere
 	if walletRegex.MatchString(in) {
 		return in[0:67], nil
 	}
-	return "", errors.New("unable to coerce wallet to valid bugna address")
+	return "", errors.New("unable to coerce wallet to valid slyvex address")
 }
