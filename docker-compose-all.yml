@@ -11,7 +11,7 @@ services:
       - '-stats=false'
       - '-stratum=:5555'
       - '-prom=:2114'
-      - '-anuma=host.docker.internal:12412'
+      - '-slyvex=host.docker.internal:28110'
       - '-mindiff=64'
       - '-vardiff=true'
     ports:
